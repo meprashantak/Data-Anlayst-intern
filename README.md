@@ -1,65 +1,46 @@
-🧹 Data Cleaning Project – Internship Work
-📌 Overview
-This repository documents my internship project focused on data cleaning and preprocessing. The goal was to transform raw, messy datasets into structured, reliable data ready for analysis and visualization.
+# Data Analyst Internship Projects
 
-🎯 Objectives
-Identify and handle missing values
+This repository contains tasks completed during my Data Analyst internship.  
+Each task demonstrates different aspects of data analysis, visualization, and storytelling.
 
-Detect and remove duplicates
+---
 
-Correct inconsistent formats (dates, text, categorical values)
+## 📊 Task 1: Data Cleaning
+**Objective:** Perform data cleaning to prepare raw datasets for analysis.  
+**Tools:** Python (Pandas, NumPy)  
+**Deliverables:** Cleaned dataset and script
 
-Treat outliers using statistical methods
+### Highlights
+- Removed duplicates and handled missing values
+- Standardized column names and formats
+- Applied transformations for consistency
+- Exported cleaned dataset for further analysis
 
-Standardize data for downstream analysis
+---
 
-🛠️ Tools & Libraries
-Python: Pandas, NumPy
+## 📈 Task 2: Data Visualization and Storytelling
+**Objective:** Create visualizations that convey a compelling story.  
+**Tools:** Power BI (Real Mart Sales Dashboard)  
+**Deliverables:** Power BI `.pbix` file and visual report (PDF/screenshots)
 
-Visualization: Matplotlib, Seaborn (for spotting anomalies)
+### Dashboard Highlights
+- **Sales Trend Analysis:** Line charts showing monthly and yearly sales growth  
+- **Top Products & Categories:** Bar charts highlighting best-performing items  
+- **Regional Breakdown:** Map and charts showing sales by location  
+- **KPIs:** Revenue growth, customer segmentation, and performance indicators  
 
-Database: SQL (for cleaning structured tables)
+### Files
+- `Task2_RealMartSales.pbix` → Interactive Power BI dashboard  
+- `Task2_Dashboard.pdf` → Exported visual report (optional)  
+- `Task2_Dashboard.md` → Documentation with dashboard insights  
 
-Version Control: Git & GitHub
+---
 
-📂 Repository Structure
-Code
-Data-Analyst-intern/
-│── datasets/        # Raw and cleaned datasets
-│── notebooks/       # Jupyter notebooks with cleaning steps
-│── scripts/         # Python scripts for automation
-│── reports/         # Documentation of cleaning process
-│── README.md        # Project overview
-🔑 Key Cleaning Steps
-Data Profiling: Initial exploration to understand dataset quality
+## 🚀 Next Steps
+- Extend dashboards with predictive analytics
+- Automate reporting workflows
+- Explore advanced storytelling techniques with Tableau/Power BI
 
-Handling Nulls: Imputation (mean/median/mode) or removal depending on context
-
-Duplicates: Identified using Pandas .duplicated() and removed
-
-Standardization: Unified formats for dates, currencies, categorical labels
-
-Outlier Treatment: Applied IQR and Z‑score methods to detect anomalies
-
-Final Validation: Ensured dataset consistency and readiness for analysis
-
-🚀 How to Run
-Clone the repository:
-
-bash
-git clone https://github.com/meprashantak/Data-Analyst-intern.git
-Navigate to the project folder:
-
-bash
-cd Data-Analyst-intern
-Open Jupyter notebooks in notebooks/ to follow the cleaning workflow step by step.
-
-📈 Outcomes
-Reduced dataset errors by removing duplicates and correcting inconsistencies
-
-Improved reliability of analysis by handling missing values systematically
-
-Delivered clean datasets ready for visualization and business insights
 
 📧 Contact
 Author: Prashant
